@@ -111,7 +111,7 @@ section {
   position: fixed;
   z-index: 10;
   top: 50%;
-  left: 3%;
+  right: 3%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -168,7 +168,7 @@ section {
 
 .theme-btn {
   top: 5%;
-  left: 3%;
+  right: 3%;
   width: 70px;
   height: 70px;
   border-radius: 50%;
@@ -285,6 +285,11 @@ section {
 .header-content .right-header p {
   margin: 1.5rem 0;
   line-height: 2rem;
+}
+
+.footer-content {
+  display: contents;
+  min-height: 10vh;
 }
 
 .blogs {
